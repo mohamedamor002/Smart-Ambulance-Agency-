@@ -24,8 +24,8 @@ calendar::calendar(int  ,QDate D,QTime H,int c)
 }
 void calendar::makecall() {
 
-    const QString SID = "AC8d0c73e087c1675ddd136d2452bf63d3";
-    const QString AUTH = "e6a8d91894346bf692c13574270eec74";
+    const QString SID = "YOUR SID";
+    const QString AUTH = "YOUR AUTH";
 
     const QString API = "Messages";
     QUrl url("https://api.twilio.com/2010-04-01/Accounts/" + SID + "/" + API +
